@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_DatePicker1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_DatePicker"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:background="@android:color/darker_gray"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_DatePicker2"
+                android:text="@string/text_DatePicker2"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:background="@android:color/darker_gray"
+                />
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/datePicker" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/tv_TimePicker1"
+                android:text="@string/text_TimePicker1"
+                android:textColor="@android:color/black"
+                android:background="@android:color/darker_gray"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/tv_TimePicker2"
+                android:text="@string/text_TimePicker2"
+                android:textColor="@android:color/black"
+                android:background="@android:color/darker_gray"
+                />
+
+            <TimePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/timePicker" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/tv_Dialog"
+                android:text="@string/text_Dialog"
+                android:textSize="20sp"
+                android:background="@android:color/darker_gray"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_DatePickerDialog"
+                android:id="@+id/btn_DatePickerDialog"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_TimePickerDialog"
+                android:id="@+id/btn_TimePickerDialog"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
